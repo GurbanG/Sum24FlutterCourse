@@ -20,7 +20,7 @@ class WaterProgressPainter extends CustomPainter {
     // TODO - Draw the water level on the canvas using rectangle and size from waterLevel
     canvas.drawRect(
       Rect.fromLTRB(
-          0, size.height - waterLevel.height, size.width, waterLevel.height),
+          0, size.height - waterLevel.height, size.width, size.height),
       paint,
     );
   }
